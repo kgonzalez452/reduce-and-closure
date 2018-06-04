@@ -4,17 +4,17 @@
 
     function createFunction () {
         function function1 () {
-            return 'Hello!';
+            return 'Hello, world!';
         }
         return function1();
     }
+    createFunction();
 
     
-    var function1 = createFunction();
-    console.log(function1.toString());
+    const function1 = createFunction();
     // now we'll call the function we just created
     function1; //should console.log('hello'); 
-    // console.log(createFunction());
+    console.log(createFunction());
 
 //  When you think you completed createFunction, un-comment out those lines in the code and run it to see if it works. 
 
